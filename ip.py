@@ -11,3 +11,5 @@ content = BeautifulSoup(source.content, 'html.parser')
 ip = content.find('span', class_= "r0bn4c rQMQod") # IPv4
 
 print("Your IP : " + Fore.LIGHTRED_EX + ip.text + Fore.WHITE)
+
+input("Press ENTER To Exit")
